@@ -5,7 +5,7 @@ function FirstFeature() {
           <h2 className='title'>Los chicos aprenden muy <span className="text-highlighted">rápido y fácil</span></h2>
           <p className="paragraph">Usemos el superpoder que tienen los chicos para que hablen ingles.</p>
         </div>
-        <img src='./assets/img/feature-1.png' alt="" className="img img-left" />
+        <img src='./assets/img/feature-1.jpg' alt="" className="img img-left" />
     </section>
   )
 }
