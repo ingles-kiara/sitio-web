@@ -38,7 +38,27 @@
     
 }
 
-.btn-primary:hover {
-    background-color: $clr-primary-600;
+.btn-primary:hover, .btn-secondary:hover {
+    opacity: .9;
     scale: 1.05;
+}
+
+a {
+    transition: color ease-in .2s;
+
+    .icon path {
+        transition: fill ease-in .2s;
+    }
+}
+
+
+a:hover {
+    color: $clr-primary-200;
+
+    .icon path{
+        fill: $clr-primary-200;
+
+    }
+
+
 }
